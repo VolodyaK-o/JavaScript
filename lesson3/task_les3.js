@@ -56,13 +56,15 @@
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
 //
 // -----------------------------------------------
+document.write(`<ul>`);
 
-// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-// for (let i = 0; i < listOfItems.length; i++) {
-//     let listOfItem = listOfItems[i];
-//     document.write(`<ul><li>${listOfItems[i]}</li></ul>`);
-// }
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+for (let i = 0; i < listOfItems.length; i++) {
+    let listOfItem = listOfItems[i];
+    document.write(`<li>${listOfItems[i]}</li>`);
+}
 
+document.write(`</ul>`);
 
 //     #Hdjws7E
 // Використовуючи данні з масиву, за допомоги document.write та циклу
